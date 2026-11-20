@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data & generated outputs (reproducible from code, too large for git)
+data/raw/
+data/synthetic/
+data/processed/
+artifacts/
+mlruns/
+mlflow.db
+reports/*.html
+
+# Secrets
+.env
+kaggle.json
+
+# Local tool settings (machine-specific paths)
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,3 @@
+# Optional: deep-learning model (NHITS). Large install (PyTorch, CPU build is fine).
+# pip install -r requirements-neural.txt   then set models.neural.enabled: true
+neuralforecast>=3.0
